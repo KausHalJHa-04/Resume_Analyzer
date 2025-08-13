@@ -42,11 +42,7 @@ export default function Home() {
   return <main className="bg-[url('/images/bg-main.svg')] bg-cover">
     <Navbar />
 
-<<<<<<< HEAD
     <section className="main-section ">
-=======
-    <section className="main-section">
->>>>>>> ac929d084848de03c2c87f751765a0a0d1012f25
       <div className="page-heading py-16">
         <h1>Track Your Applications & Resume Ratings</h1>
         {!loadingResumes && resumes?.length === 0 ? (
