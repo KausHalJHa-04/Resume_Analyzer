@@ -51,13 +51,21 @@ const Resume = () => {
 
     return (
         <main className="!pt-0">
+<<<<<<< HEAD
             <nav className="resume-nav bg-gradient-to-r from-orange-300  to-sky-400">
+=======
+            <nav className="resume-nav">
+>>>>>>> ac929d084848de03c2c87f751765a0a0d1012f25
                 <Link to="/" className="back-button">
                     <img src="/icons/back.svg" alt="logo" className="w-2.5 h-2.5" />
                     <span className="text-gray-800 text-sm font-semibold">Back to Homepage</span>
                 </Link>
             </nav>
+<<<<<<< HEAD
             <div className="flex flex-row w-full max-lg:flex-col-reverse bg-gradient-to-r from-orange-300  to-sky-400">
+=======
+            <div className="flex flex-row w-full max-lg:flex-col-reverse">
+>>>>>>> ac929d084848de03c2c87f751765a0a0d1012f25
                 <section className="feedback-section bg-[url('/images/bg-small.svg') bg-cover h-[100vh] sticky top-0 items-center justify-center">
                     {imageUrl && resumeUrl && (
                         <div className="animate-in fade-in duration-1000 gradient-border max-sm:m-0 h-[90%] max-wxl:h-fit w-fit">

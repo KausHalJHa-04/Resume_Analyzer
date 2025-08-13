@@ -24,8 +24,13 @@ const ScoreGauge = ({ score = 75 }: { score: number }) => {
                             x2="100%"
                             y2="0%"
                         >
+<<<<<<< HEAD
                             <stop offset=" 0%" stopColor="#eb7134" />
                             <stop offset="100%" stopColor="#17d8ff" />
+=======
+                            <stop offset="0%" stopColor="#a78bfa" />
+                            <stop offset="100%" stopColor="#fca5a5" />
+>>>>>>> ac929d084848de03c2c87f751765a0a0d1012f25
                         </linearGradient>
                     </defs>
 
