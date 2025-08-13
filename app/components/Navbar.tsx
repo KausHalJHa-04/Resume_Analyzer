@@ -2,7 +2,7 @@ import {Link} from "react-router";
 
 const Navbar = () => {
     return (
-        <nav className="navbar">
+        <nav className="navbar ">
             <Link to="/">
                 <p className="text-2xl font-bold text-gradient">Upto Skills</p>
             </Link>
