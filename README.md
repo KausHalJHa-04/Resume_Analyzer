@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 📄 Resume Analyzer
 
 An AI-powered web application that analyzes resumes and provides actionable feedback to improve structure, formatting, and content quality. Designed for job seekers, recruiters, and HR professionals, this tool leverages modern web technologies and AI models to deliver quick, insightful results.
@@ -7,53 +6,6 @@ An AI-powered web application that analyzes resumes and provides actionable feed
 
 AI-based Resume Scoring – Evaluates resumes based on clarity, relevance, and professional standards.
 
-=======
-<<<<<<< HEAD
-<h1 align="center">📄 Resume Analyzer</h1>
-
-<p align="center">
-  An AI-powered web application that analyzes resumes and provides actionable feedback to improve structure, formatting, and content quality.
-  Designed for job seekers, recruiters, and HR professionals, this tool leverages modern web technologies, AI models, and <b>Puter</b> cloud services to deliver quick, insightful results.
-</p>
-
----
-
-<h2>🚀 Features</h2>
-<ul>
-  <li><b>AI-based Resume Scoring</b> – Evaluates resumes based on clarity, relevance, and professional standards.</li>
-  <li><b>Keyword Optimization</b> – Highlights missing industry-specific keywords.</li>
-  <li><b>ATS Compatibility Check</b> – Ensures your resume is ready for Applicant Tracking Systems.</li>
-  <li><b>Cloud File Handling</b> – Powered by <b>Puter</b> for file storage, retrieval, and processing.</li>
-  <li><b>User-Friendly Interface</b> – Built with React and fully responsive.</li>
-  <li><b>Multiple File Formats</b> – Supports PDF, DOCX, and TXT uploads.</li>
-</ul>
-
----
-
-<h2>🛠 Tech Stack</h2>
-<ul>
-  <li><b>Frontend:</b> React, TypeScript, Vite</li>
-  <li><b>Styling:</b> Tailwind CSS</li>
-  <li><b>Backend:</b> Node.js / Express</li>
-  <li><b>Cloud Integration:</b> Puter API</li>
-  <li><b>AI Model:</b> OpenAI / Gemini API</li>
-  <li><b>Deployment:</b> Docker, Vercel/Netlify</li>
-</ul>
-
----
-
-<h2>📦 Installation</h2>
-<pre>
-=======
-📄 Resume Analyzer
-
-An AI-powered web application that analyzes resumes and provides actionable feedback to improve structure, formatting, and content quality. Designed for job seekers, recruiters, and HR professionals, this tool leverages modern web technologies and AI models to deliver quick, insightful results.
-
-🚀 Features
-
-AI-based Resume Scoring – Evaluates resumes based on clarity, relevance, and professional standards.
-
->>>>>>> 2765d53
 Keyword Optimization – Highlights missing industry-specific keywords.
 
 ATS Compatibility Check – Ensures your resume is ready for Applicant Tracking Systems.
@@ -75,10 +27,6 @@ AI Model: OpenAI / Gemini API
 Deployment: Docker, Vercel/Netlify
 
 📦 Installation
-<<<<<<< HEAD
-=======
->>>>>>> 6b56c99 (initial commit)
->>>>>>> 2765d53
 # Clone the repository
 git clone https://github.com/KausHalJHa-04/Resume_Analyzer.git
 
@@ -90,27 +38,6 @@ npm install
 
 # Start the development server
 npm run dev
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-</pre>
-
----
-
-<h2>📋 Usage</h2>
-<ol>
-  <li>Upload your resume in PDF, DOCX, or TXT format.</li>
-  <li>AI processes the content while <b>Puter</b> handles file management.</li>
-  <li>View detailed feedback and improvement suggestions.</li>
-  <li>Download the updated version (if editing features are available).</li>
-</ol>
-
----
-
-<h2>📂 Project Structure</h2>
-<pre>
-=======
->>>>>>> 2765d53
 
 📋 Usage
 
@@ -123,10 +50,6 @@ View detailed feedback and improvement suggestions.
 Download the updated version (if editing features are available).
 
 📂 Project Structure
-<<<<<<< HEAD
-=======
->>>>>>> 6b56c99 (initial commit)
->>>>>>> 2765d53
 Resume_Analyzer/
 │
 ├── app/               # Main application logic
@@ -136,30 +59,6 @@ Resume_Analyzer/
 ├── Dockerfile         # Containerization setup
 ├── vite.config.ts     # Vite configuration
 └── tsconfig.json      # TypeScript configuration
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-</pre>
-
----
-
-<h2>🧑‍💻 Contributing</h2>
-<p>
-  Contributions are welcome!
-  <ol>
-    <li>Fork the repo</li>
-    <li>Create a feature branch</li>
-    <li>Commit changes</li>
-    <li>Open a pull request</li>
-  </ol>
-</p>
-
----
-
-<h2>📜 License</h2>
-<p>This project is licensed under the MIT License.</p>
-=======
->>>>>>> 2765d53
 
 🧑‍💻 Contributing
 
@@ -175,9 +74,4 @@ Open a pull request
 
 📜 License
 
-<<<<<<< HEAD
 This project is licensed under the MIT License.
-=======
-This project is licensed under the MIT License.
->>>>>>> 6b56c99 (initial commit)
->>>>>>> 2765d53
