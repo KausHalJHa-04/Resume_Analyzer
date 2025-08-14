@@ -1,77 +1,86 @@
-📄 Resume Analyzer
+<h1 align="center">📄 Resume Analyzer</h1>
 
-An AI-powered web application that analyzes resumes and provides actionable feedback to improve structure, formatting, and content quality. Designed for job seekers, recruiters, and HR professionals, this tool leverages modern web technologies and AI models to deliver quick, insightful results.
+<p align="center">
+  An AI-powered web application built with <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, and <b>PHP</b> that analyzes resumes, checks for keyword optimization, ATS compatibility, and provides actionable feedback for job seekers and recruiters.
+</p>
 
-🚀 Features
+---
 
-AI-based Resume Scoring – Evaluates resumes based on clarity, relevance, and professional standards.
+## 🌟 Features
+<ul>
+  <li>📂 Upload resumes in <b>PDF</b>, <b>DOCX</b>, or <b>TXT</b> format.</li>
+  <li>🤖 AI-powered analysis for structure, grammar, and keyword optimization.</li>
+  <li>📊 ATS (Applicant Tracking System) compatibility check.</li>
+  <li>💡 Personalized improvement suggestions.</li>
+  <li>📱 Responsive design for mobile and desktop.</li>
+</ul>
 
-Keyword Optimization – Highlights missing industry-specific keywords.
+---
 
-ATS Compatibility Check – Ensures your resume is ready for Applicant Tracking Systems.
-
-User-Friendly Interface – Built with React and fully responsive.
-
-Multiple File Formats – Supports PDF, DOCX, and TXT uploads.
-
-🛠 Tech Stack
-
-Frontend: React, TypeScript, Vite
-
-Styling: Tailwind CSS
-
-Backend: Node.js / Express (if applicable)
-
-AI Model: OpenAI / Gemini API
-
-Deployment: Docker, Vercel/Netlify
-
-📦 Installation
-# Clone the repository
-git clone https://github.com/KausHalJHa-04/Resume_Analyzer.git
-
-# Navigate to the project folder
-cd Resume_Analyzer
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-
-📋 Usage
-
-Upload your resume in PDF, DOCX, or TXT format.
-
-Wait for the AI to process your file.
-
-View detailed feedback and improvement suggestions.
-
-Download the updated version (if editing features are available).
-
-📂 Project Structure
+## 🗂 Project Structure
+<pre>
 Resume_Analyzer/
 │
-├── app/               # Main application logic
-├── constants/         # Static constants and config values
-├── public/            # Static assets
-├── types/             # TypeScript type definitions
-├── Dockerfile         # Containerization setup
-├── vite.config.ts     # Vite configuration
-└── tsconfig.json      # TypeScript configuration
+├── index.php          # Homepage & resume upload form
+├── upload.php         # Handles file upload & validation
+├── analyzer.php       # Core analysis logic
+├── assets/
+│   ├── css/           # Stylesheets
+│   ├── js/            # JavaScript scripts
+│   └── images/        # Images & icons
+├── uploads/           # Temporary storage for resumes
+├── config.php         # Database / configuration file
+└── README.md
+</pre>
 
-🧑‍💻 Contributing
+---
 
-Contributions are welcome!
+## ⚙️ Installation & Setup
+<ol>
+  <li>Clone the repository:
+    <pre><code>git clone https://github.com/KausHalJHa-04/Resume_Analyzer.git</code></pre>
+  </li>
+  <li>Move the project to your local server directory:
+    <pre><code>htdocs/Resume_Analyzer</code></pre>
+  </li>
+  <li>Import the database (if provided) from the <code>database.sql</code> file.</li>
+  <li>Configure your database credentials in:
+    <pre><code>config.php</code></pre>
+  </li>
+  <li>Run the project in your browser:
+    <pre><code>http://localhost/Resume_Analyzer</code></pre>
+  </li>
+</ol>
 
-Fork the repo
+---
 
-Create a feature branch
+## 🚀 Usage
+<ol>
+  <li>Open the web app in your browser.</li>
+  <li>Upload your resume file.</li>
+  <li>Wait for the AI to analyze the content.</li>
+  <li>Review detailed feedback and suggestions.</li>
+</ol>
 
-Commit changes
+---
 
-Open a pull request
+## 📸 Screenshots
+<p align="center">
+  <img src="assets/images/demo1.png" alt="Resume Analyzer Homepage" width="70%">
+  <br><em>Homepage & Upload Form</em>
+</p>
 
-📜 License
+<p align="center">
+  <img src="assets/images/demo2.png" alt="Resume Analysis Result" width="70%">
+  <br><em>AI-Powered Analysis Results</em>
+</p>
 
-This project is licensed under the MIT License.
+---
+
+## 🤝 Contributing
+<p>We welcome contributions! Fork the repo, make changes, and submit a pull request.</p>
+
+---
+
+## 📜 License
+<p>This project is licensed under the <b>MIT License</b>.</p>
