@@ -2,7 +2,7 @@ import {type FormEvent, useState} from 'react'
 import Navbar from "~/components/Navbar";
 import FileUploader from "~/components/FileUploader";
 import {usePuterStore} from "~/lib/puter";
-import {useNavigate} from "react-router";
+import { useNavigate, Link } from 'react-router';
 import {convertPdfToImage} from "~/lib/pdf2img";
 import {generateUUID} from "~/lib/utils";
 import {prepareInstructions} from "../../constants";
@@ -79,11 +79,16 @@ const Upload = () => {
     }
 
     return (
-        <main className="bg-[url('/images/bg-main.svg')] bg-cover">
-            <Navbar />
+        <main className="bg-gradient-to-r from-orange-300  to-sky-400">
+            <nav className="resume-nav bg-gradient-to-r from-orange-300  to-sky-400">
+                <Link to="/" className="back-button">
+                    <img src="/icons/back.svg" alt="logo" className="w-2.5 h-2.5" />
+                    <span className="text-gray-800 text-sm font-semibold">Back to Homepage</span>
+                </Link>
+            </nav>
 
             <section className="main-section">
-                <div className="page-heading py-16">
+                <div className="page-heading py-1">
                     <h1>Smart feedback for your dream job</h1>
                     {isProcessing ? (
                         <>
@@ -94,6 +99,7 @@ const Upload = () => {
                         <h2>Drop your resume for an ATS score and improvement tips</h2>
                     )}
                     {!isProcessing && (
+                        
                         <form id="upload-form" onSubmit={handleSubmit} className="flex flex-col gap-4 mt-8">
                             <div className="form-div">
                                 <label htmlFor="company-name">Company Name</label>
