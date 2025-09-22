@@ -25,7 +25,7 @@
   <li><b>Styling:</b> Tailwind CSS</li>
   <li><b>Backend:</b> Node.js / Express</li>
   <li><b>Cloud Integration:</b> Puter API</li>
-  <li><b>AI Model:</b> OpenAI / Gemini API</li>
+  <li><b>AI Model:</b> Gemini API</li>
   <li><b>Deployment:</b> Docker, Vercel/Netlify</li>
 </ul>
 
